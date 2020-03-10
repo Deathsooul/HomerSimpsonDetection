@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
     char str[500];
     for(i=1;i<=58;i++) {
 //		printf("%d\n", i);
-        sprintf(str, "/home/wallace/Documentos/Faculdade/2020/InteligenciaArtificial/Aula1/ProjetoHomerEmCpp/imagens/%d.bmp", i);
+        sprintf(str, "/home/wallace/Documentos/Faculdade/2020/InteligenciaArtificial/Aula1/HomerSimpsonDetection/HomerSimpsonDetectionWithCpp/imagens/%d.bmp", i);
         ReadBMP(str);
     }
 
